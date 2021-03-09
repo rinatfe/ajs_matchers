@@ -16,3 +16,7 @@ describe('my test', () => {
         expect(sort(arr)).toEqual(ethalon);
     });
 });
+
+test('index test', () => {
+  expect(sort(arr)).toBe(ethalon);
+});
