@@ -1,5 +1,10 @@
-import result from "./index";
+import sort from "./index";
 
+let arr = [
+    {name: 'мечник', health: 10},
+    {name: 'маг', health: 100},
+    {name: 'лучник', health: 80},
+  ];
 
 const ethalon = [
     {name: 'маг', health: 100},
@@ -8,6 +13,6 @@ const ethalon = [
   ];
 describe('my test', () => {
     test('index test', () => {
-        expect(result).toEqual(ethalon);
+        expect(sort(arr)).toEqual(ethalon);
     });
 });
