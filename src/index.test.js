@@ -18,5 +18,5 @@ describe('my test', () => {
 });
 
 test('index test', () => {
-  expect(sort(arr)).toBe(ethalon);
+  expect(sort(arr)).not.toBe(ethalon);
 });
